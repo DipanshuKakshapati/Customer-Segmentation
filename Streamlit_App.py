@@ -55,7 +55,7 @@ if selected_tab == "Make Predictions":
         
     # Input for total_orders (optional, if needed)
     total_orders = st.sidebar.number_input("Total Orders", 0, 1000000, 10)
-        
+       
     # Calculate total_price dynamically
     total_price = unit_price * quantity * total_orders
 
